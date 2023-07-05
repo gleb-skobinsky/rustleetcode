@@ -1,7 +1,7 @@
-pub struct Solution {}
+use crate::solution::Solution;
 
 impl Solution {
-    pub fn gcd_of_strings(&self, str1: String, str2: String) -> String {
+    pub fn gcd_of_strings(str1: String, str2: String) -> String {
         let sum_str1 = format!("{}{}", str1, str2);
         let sum_str2 = format!("{}{}", str2, str1);
         if sum_str1 != sum_str2 {

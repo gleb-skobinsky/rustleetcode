@@ -1,7 +1,7 @@
-pub struct Solution {}
+use crate::solution::Solution;
 
 impl Solution {
-    pub fn merge_alternately(&self, word1: String, word2: String) -> String {
+    pub fn merge_alternately(word1: String, word2: String) -> String {
         let mut iter1 = word1.chars();
         let mut iter2 = word2.chars();
         let mut result = String::with_capacity(word1.len() + word2.len());
