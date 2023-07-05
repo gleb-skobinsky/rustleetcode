@@ -7,8 +7,8 @@
     <cargoProject FILE="$PROJECT_DIR$/Cargo.toml" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="48c3f8b8-13d3-4b55-bf36-a2edc8aa94d0" name="Changes" comment="merge strings solution">
-      <change afterPath="$PROJECT_DIR$/src/gcd_of_strings.rs" afterDir="false" />
+    <list default="true" id="48c3f8b8-13d3-4b55-bf36-a2edc8aa94d0" name="Changes" comment="GCD solution borrowed from Kotlin">
+      <change afterPath="$PROJECT_DIR$/src/candies.rs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.rs" afterDir="false" />
     </list>
@@ -35,17 +35,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "dart.analysis.tool.window.visible": "false",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "/home/glebg/projects/kotleetcode",
-    "org.rust.cargo.project.model.PROJECT_DISCOVERY": "true",
-    "show.migrate.to.gradle.popup": "false"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/glebg/projects/kotleetcode&quot;,
+    &quot;org.rust.cargo.project.model.PROJECT_DISCOVERY&quot;: &quot;true&quot;,
+    &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Run" type="CargoCommandRunConfiguration" factoryName="Cargo Command">
       <option name="command" value="run --package rustleetcode --bin rustleetcode" />
@@ -94,12 +94,21 @@
       <option name="project" value="LOCAL" />
       <updated>1688500180632</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="GCD solution borrowed from Kotlin">
+      <option name="closed" value="true" />
+      <created>1688503119875</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1688503119875</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
     <MESSAGE value="merge strings solution" />
-    <option name="LAST_COMMIT_MESSAGE" value="merge strings solution" />
+    <MESSAGE value="GCD solution borrowed from Kotlin" />
+    <option name="LAST_COMMIT_MESSAGE" value="GCD solution borrowed from Kotlin" />
   </component>
 </project>
