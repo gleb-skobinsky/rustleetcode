@@ -26,7 +26,7 @@ impl Solution {
     }
 
     pub fn reverse_vowels2(mut s: String) -> String {
-        let mut bytes = unsafe {s.as_bytes_mut()};
+        let mut bytes = unsafe { s.as_bytes_mut() };
 
         let mut iter = bytes.iter_mut();
         while let (Some(left), Some(right)) = (

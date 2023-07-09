@@ -6,6 +6,7 @@ mod candies;
 mod flowers;
 mod solution;
 mod reverse_strings;
+mod product_except_self;
 
 fn main() {
     println!("{}", Solution::merge_alternately(String::from("abc"), String::from("pqr")));
@@ -13,7 +14,8 @@ fn main() {
     test_candies();
     test_candies2();
     println!("{}", Solution::can_place_flowers(vec![0, 1, 0], 1));
-    println!("{}", Solution::reverse_vowels("Hi leetcode".to_owned()))
+    println!("{}", Solution::reverse_vowels("Hi leetcode".to_owned()));
+    println!("{}", format!("{:?}", Solution::product_except_self(vec![1, 2, 3, 4])))
 }
 
 fn test_candies() {
